@@ -1,6 +1,41 @@
 public class InitArray {
     public static void main(String[] args) {
-       
+
+        int[][] array3 = {
+                {1, 2, 3},
+                {4, 5, 6},
+        };
+        //array3[1][2]; //goes to index 1 (0)
+        //think of it as array3[row][column]
+
+        int[][] array4 = {
+                //[][] makes it a two-dimensional array
+                {1, 2},//row 0
+                //1 = element 0
+                //2 = element 1
+                {3},//row 1
+                {4, 5, 6}//row 2
+        };
+
+        //String[][] myStringArray = {
+        //{" ", " "},
+        //{" ", " "},
+        //{" ", " "},
+        //};
+        //can put values from database into array
+        
+        
+        //String[][] Student = {
+                //{"1", "glas....","*"}// can set up code to pull data from a database
+
+        
+        
+        System.out.println(array4[1][1]); //will be an error--> row 1, element 1 (n/a)
+        
+        
+        
+        
+        
         ///////////////////////////////////////////////////////////////////
        int[][] array2 = {{1,2},{3,4},{5,6}};  //this is an array inside an array
         System.out.println("*********************************");
@@ -10,21 +45,21 @@ public class InitArray {
 
 
         ///////////////////////////////////////////////////////////////////
-       int[] array3 = {1,2,3,4,5};
+       int[] array70 = {1,2,3,4,5};
        //1,2,3,4,5 are indexes or array elements
         //1 = "index one"
 
-        //System.out.println(array1[0]); //wiill print out a one
+        //System.out.println(array70[0]); //wiill print out a one
         ///////////////////////////////////////////////////////////////////
-       
-       
+
+
         System.out.println("These are unmanipulated values");
        //Init the array
         //There will be 10 elements in this array
         //the elements will be ZERO through NINE
         int[] array = new int [10];
         //this is a single dimension array
-        
+
         //you can add more dimensions
         //int[][][] array = new int [10];//three-dimensional array
 
